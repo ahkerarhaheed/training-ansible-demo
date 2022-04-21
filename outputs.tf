@@ -1,3 +1,3 @@
 output "web_server_ips" {
-  value = aws_instance.my_public_server.*.public_ip
+  value = aws_instance.web_servers.*.public_ip
 }

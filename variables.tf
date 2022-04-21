@@ -25,10 +25,5 @@ variable "public_subnet_name" {
 }
 
 variable "my_keypair" {
-  default = "aws_keypair"
+  default = "AWS_keypair"
 }
-
-variable "number_of_public_instances" {
-  default = 4
-}
-
